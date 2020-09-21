@@ -1,0 +1,116 @@
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.footer {
+    background: #021f42;
+    padding-top: 20px;
+  }
+  
+  div.row.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  div.social-links {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  div.social-links a.instagram i {
+    color: #021f42;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    background-color: #07e0bb;
+    width: auto;
+    border-radius: 50%;
+    line-height: 0.8;
+    padding: 9px;
+    font-size: 40px;
+  }
+  
+  .fa-instagram:before {
+    content: "\f16d";
+    width: 34px;
+  }
+  
+  
+  
+  div.derecha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+  }
+  
+  
+  
+  .footer .footer-logo .navbar-brand {
+    color: #fff;
+    display: inline-block;
+    float: none;
+    /* font-family: "Philosopher", sans-serif; */
+    font-size: 24px;
+    font-weight: 500;
+    height: 100%;
+    letter-spacing: 0.2em;
+    padding-left: 0;
+    padding-top: 0;
+    margin-right: 0;
+  }
+  
+  .footer .footer-logo p {
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+  
+  .footer .list-menu > h4 {
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  .footer .list-menu ul li a {
+    color: #fff;
+    font-size: 12px;
+    padding-left: 5px;
+    text-decoration: none;
+    letter-spacing: 0;
+  }
+  
+  .footer .copyrights {
+    background: #fff;
+    text-align: center;
+  }
+  
+  .footer .copyrights p,
+  .footer .copyrights .credits {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Open Sans", sans-serif; */
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+  
+  .footer .copyrights p a,
+  .footer .copyrights .credits a {
+    letter-spacing: 0;
+    color: #021f42;
+  }
+  
+  img.imgInstagram {
+    width: 115%;
+    border-radius: 20px;
+  }
+  
+  img.imgWhatsapp {
+    width: 115%;
+    border-radius: 30px;
+  }
+
+  img.imgFacebook {
+    width: 115%;
+    border-radius: 10px;
+  }

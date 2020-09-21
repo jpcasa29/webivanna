@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+
+
+
+.section-title {
+    margin-bottom: 30px;
+  }
+  
+  
+  
+  .section-title h2 {
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 45px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+  }
+  
+  div.colab h2 {
+    margin: 0;
+  }
+  
+  .section-title .separator {
+    margin: 0;
+    font-size: 20px;
+  }
+  
+  .separator {
+    color: #626262;
+    /* font-family: "Roboto", sans-serif; */
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+  }
+  
