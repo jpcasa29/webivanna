@@ -12,6 +12,7 @@
 @import 'partials/_home.css';
 @import 'partials/_sections.css';
 @import 'partials/_sidebar.css';
+@import 'partials/whatsapp.css';
 
 /*--------------------------------------------------------------
 # General
@@ -496,8 +497,8 @@ label {
 @media (max-width: 768px) {
   
   .social-links a {
-    width: 40%;
-    height: 30%;
+    width: auto;
+    height: auto;
     margin: 10px auto;
   }
   .back-to-top {
@@ -523,18 +524,18 @@ label {
     font-size: 40px;
   }
   .social-links a {
-    width: 70%;
-    height: 70%;
+    width: auto;
+    height: auto;
     margin: 10px auto;
   }
   .social-links {
-    width: 70%;
-    height: 70%;
+    width: auto;
+    height: auto;
     margin: 10px auto;
   }
   #home h1 {
     font-size: 70px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     line-height: 36px;
   }
 }
@@ -568,33 +569,39 @@ label {
 }
 @media (min-width: 768px) {
   #home h1 {
-    font-size: 100px;
-    margin-bottom: 100px;
+    font-size: 120px;
+    margin-bottom: 120px;
     line-height: 36px;
   }
   #nav-menu-container button {
     display: none;
   }
   .social-links a {
-    width: 50%;
-    height: 50%;
+    width: auto;
+    height: auto;
     text-align: center;
     margin: 10px auto;
   }
   .social-links {
-    width: 50%;
-    height: 50%;
+    width: auto;
+    height: auto;
     text-align: center;
     margin: 10px auto;
   }
+  #home h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    margin-top: 40%;
+  }
   
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   
   #home h2 {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 25px;
+    
     margin-bottom: 30px;
+    margin-top: 60%;
   }
 
 }

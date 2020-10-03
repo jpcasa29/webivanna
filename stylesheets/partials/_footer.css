@@ -8,7 +8,7 @@
   
   div.row.footer-logo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
   }
   
@@ -19,15 +19,15 @@
   
   div.social-links a.instagram i {
     color: #021f42;
-    display: flex;
-    justify-content: center;
-    margin: 10px;
+    margin: 5px;
     background-color: #07e0bb;
     width: auto;
+    height: auto;
     border-radius: 50%;
     line-height: 0.8;
-    padding: 9px;
-    font-size: 40px;
+    padding: 8px;
+    font-size: 50px;
+    
   }
   
   .fa-instagram:before {
@@ -100,17 +100,4 @@
     color: #021f42;
   }
   
-  img.imgInstagram {
-    width: 115%;
-    border-radius: 20px;
-  }
   
-  img.imgWhatsapp {
-    width: 115%;
-    border-radius: 30px;
-  }
-
-  img.imgFacebook {
-    width: 115%;
-    border-radius: 10px;
-  }
